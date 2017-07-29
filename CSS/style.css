@@ -22,3 +22,41 @@ a:focus {
 #p1:target {
 	color: green
 }
+p:lang(pl) {
+	font-style: italic;
+	color: darkcyan;
+}
+p:lang(es) {
+	font-style: italic;
+	color: yellow;
+}
+p:lang(de) {
+	font-style: italic;
+	color: darkgoldenrod;
+}
+
+
+div.klient:first-child {
+	color: chartreuse;
+}
+div.klient:last-child {
+	color: skyblue;
+}
+div.klient:only-child {
+	color: red;
+}
+div.klient:empty {
+	width: 100px;
+	height: 100px;
+	background-color: aqua;
+}
+.klient:nth-child(even) {
+	background-color: beige;
+}
+.klient:nth-child(odd) {
+	background-color: lightpink;
+	
+}
+.klient:nth-child(2n+6) {
+	background-color: green;
+}

@@ -1,0 +1,24 @@
+a {
+	text-decoration: none;
+}
+a:link {
+	color: deepskyblue;
+}
+a:visited {
+	color: orange;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	color: fuchsia
+}
+a:focus {
+	color: firebrick;
+}
+#p1 {
+	color: blue;
+}
+#p1:target {
+	color: green
+}
